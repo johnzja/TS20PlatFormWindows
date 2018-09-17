@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AIConsole", "AIConsole\AIConsole.vcxproj", "{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83} = {300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71} = {ED0C8A98-93FE-4ADF-8242-4566E011ED71}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AI_API", "AI_API\AI_API.vcxproj", "{ED0C8A98-93FE-4ADF-8242-4566E011ED71}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PlayerAI", "PlayerAI\PlayerAI.vcxproj", "{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}"
+	ProjectSection(ProjectDependencies) = postProject
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71} = {ED0C8A98-93FE-4ADF-8242-4566E011ED71}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FakedPlayerAI", "FakedPlayerAI\FakedPlayerAI.vcxproj", "{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Debug|x64.ActiveCfg = Debug|x64
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Debug|x64.Build.0 = Debug|x64
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Debug|x86.ActiveCfg = Debug|Win32
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Debug|x86.Build.0 = Debug|Win32
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Release|x64.ActiveCfg = Release|x64
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Release|x64.Build.0 = Release|x64
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Release|x86.ActiveCfg = Release|Win32
+		{CFE5689E-7D63-498D-BED1-5BBB2E3FBD9C}.Release|x86.Build.0 = Release|Win32
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Debug|x64.ActiveCfg = Debug|x64
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Debug|x64.Build.0 = Debug|x64
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Debug|x86.Build.0 = Debug|Win32
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Release|x64.ActiveCfg = Release|x64
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Release|x64.Build.0 = Release|x64
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Release|x86.ActiveCfg = Release|Win32
+		{ED0C8A98-93FE-4ADF-8242-4566E011ED71}.Release|x86.Build.0 = Release|Win32
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Debug|x64.ActiveCfg = Debug|x64
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Debug|x64.Build.0 = Debug|x64
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Debug|x86.ActiveCfg = Debug|Win32
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Debug|x86.Build.0 = Debug|Win32
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Release|x64.ActiveCfg = Release|x64
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Release|x64.Build.0 = Release|x64
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Release|x86.ActiveCfg = Release|Win32
+		{300CBC8C-18FF-4E3B-BBDE-C2A066D96B83}.Release|x86.Build.0 = Release|Win32
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Debug|x64.ActiveCfg = Debug|x64
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Debug|x64.Build.0 = Debug|x64
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Debug|x86.ActiveCfg = Debug|Win32
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Debug|x86.Build.0 = Debug|Win32
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Release|x64.ActiveCfg = Release|x64
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Release|x64.Build.0 = Release|x64
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Release|x86.ActiveCfg = Release|Win32
+		{DFD5AB93-4A82-46B5-B0EF-C3D7760F20B8}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {152B343C-0CB0-4289-9F97-5907EF06EC14}
+	EndGlobalSection
+EndGlobal
